@@ -1,0 +1,32 @@
+{
+  "name": "tic_tac_toe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mvc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nishantharcot/tic-tac-toe.git"
+  },
+  "author": "Arcot Nishanth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nishantharcot/tic-tac-toe/issues"
+  },
+  "homepage": "https://github.com/nishantharcot/tic-tac-toe#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.4.0",
+    "@typescript-eslint/parser": "^2.4.0",
+    "eslint": "^6.5.1",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-html": "^6.0.0",
+    "eslint-plugin-vue": "^5.2.3",
+    "typescript-eslint-parser": "^22.0.0"
+  },
+  "dependencies": {
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.4"
+  }
+}
