@@ -21,3 +21,13 @@ footer {
   color: red;
   background-color: aqua;
 }
+
+#tictactoe {
+  position: relative;
+  right: -500px;
+  top: 60px;
+}
+
+#body {
+  background-color: black
+}
