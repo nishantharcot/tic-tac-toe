@@ -1,29 +1,65 @@
-<html>
-  <body id="body">
-    <header>
-      <h1 style="text-align:center; color: red"> Tic Tac Toe </h1>
-    </header>
-
-    <section id='tictactoe'>
-      <div class="row">
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <section class="hero is-success is-fullheight">
+      <!-- Hero head: will stick at the top -->
+      <div class="hero-head">
+        <header class="navbar">
+          <div class="container">
+            <div class="navbar-brand">
+              <a class="navbar-item">
+                <img src="https://bulma.io/images/bulma-type-white.png" alt="Logo">
+              </a>
+              <span class="navbar-burger burger" data-target="navbarMenuHeroC">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </div>
+            <div id="navbarMenuHeroC" class="navbar-menu">
+              <div class="navbar-end">
+              </div>
+            </div>
+          </div>
+        </header>
       </div>
-      <div class="row">
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
+    
+      <!-- Hero content: will be in the middle -->
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <div class="table-container">
+            <table class="table is-bordered">
+              <tr>
+                <th class="bo">1</th>
+                <th class="bo">2</th>
+                <th class="bo">3</th>
+              </tr>
+              <tr>
+                <th class="bo">4</th>
+                <th class="bo">5</th>
+                <th class="bo">6</th>
+              </tr>
+              <tr>
+                <th class="bo">7</th>
+                <th class="bo">8</th>
+                <th class="bo">9</th>
+              </tr>
+            </table>
+          </div>
+        </div>
       </div>
-      <div class="row">
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-      </div>
-    </section>
-    <link rel="stylesheet" href="style.css">
-    <script src="mvc.js"></script>
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css"> -->
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-  </body>
+    
+      <!-- Hero footer: will stick at the bottom -->
+  </section>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <script src="mvc.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</body>
 </html>
