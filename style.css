@@ -1,33 +1,7 @@
-body {
-  height: 90vh;
-}
-
-footer {
-  position: absolute;
-  bottom: 0;
-  left : 50;
-}
-
-.row {
-  display: flex;
-}
-
-.box {
-  border: solid 1px black;
-  height: 70;
-  width: 70;
-  padding: 20;
-  font-size: 80px;
-  color: red;
-  background-color: aqua;
-}
-
-#tictactoe {
-  position: relative;
-  right: -500px;
-  top: 60px;
-}
-
-#body {
-  background-color: white;
+.bo {
+  height: 9vh;
+  width: 9vh;
+  /* background-color: aqua; */
+  color: pink;
+  size: 80px;
 }
