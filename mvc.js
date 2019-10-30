@@ -4,7 +4,7 @@
       const x = 'X';
       const o = 'O';
       let count = 0;
-      const boxes = document.getElementsByClassName('box');
+      const boxes = document.getElementsByClassName('bo');
       const model = {
         board: [
           ['', '', ''],
