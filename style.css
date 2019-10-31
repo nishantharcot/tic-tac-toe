@@ -4,12 +4,12 @@
   background-color: aqua;
   color: red;
   font-size: 50px;
-  border: solid 1px black;
 }
 
 .table {
   position: relative;
   right: -350px;
+  bottom: 0px;
 }
 
 .ontop {
@@ -19,12 +19,12 @@
 
 .human {
   position: relative;
-  right: -240px;
-  bottom: -80px;
+  right: 40px;
+  /* bottom: -80px; */
 }
 
 .computer {
   position: relative;
-  right: -100px;
-  bottom: -120px;
-}
+  /* right: -100px; */
+  /* bottom: -120px; */
+} 
