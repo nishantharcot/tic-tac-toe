@@ -22,6 +22,10 @@
             const row = Math.floor(i / 3);
             const col = Number(i % 3);
             boxes[i].innerHTML = model.board[row][col];
+            // console.log(boxes[i].innerHTML);
+            if (count >= 5) {
+              controller.checkGame(model.board);
+            }
             if (model.currentPlayer === o) {
               boardView.attachEventHandlers();
             }
@@ -49,7 +53,7 @@
       };
       const controller = {
         handleBoxClick(boxIndex) {
-          console.log(boxIndex);
+          // console.log(boxIndex);
           const row = Math.floor(boxIndex / 3);
           const col = Number(boxIndex % 3);
           if (model.board[row][col]) {
@@ -62,9 +66,9 @@
             model.currentPlayer = model.currentPlayer === x ? o : x;
             count += 1;
             boardView.render();
-            if (count >= 5) {
-              controller.checkGame(model.board);
-            }
+            // if (count >= 5) {
+            //   controller.checkGame(model.board);
+            // }
             if (count === 9) {
               controller.clearBoard(model.board);
             }
